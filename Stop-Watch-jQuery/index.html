@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>タイマー</title>
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- <div class="container" id="stopWatch"> -->
+  <button type="button" class="btn btn-primary" id="btnStart" onclick="startShowing()">スタート</button>
+  <button type="button" class="btn btn-secondary" id="btnStop" onclick="stopShowing()" disabled>ストップ</button>
+  <button type="button" class="btn btn-info" id="btnReset" onclick="resetShowing()" disabled>リセット</button>
+  <p id="passageArea"></p>
+<!-- </div> -->
+<script src="./jquery.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
